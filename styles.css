@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background: rgb(210, 209, 209);
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    /* height: 100vh; */
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 33px 0;
+    font-size: medium;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.main{
+    /* background: yellow; */
+    width: 90vw;
+}
+.container{
+    display:flex;
+}
+.infoContainer{
+     /* background: pink;  */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.divInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.moreabt{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 10px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 2px 5px;
+    border-radius: 22px;
+    color: rgb(253, 253, 253);
+    background: rgb(16, 108, 201);
+    /* font-weight: bold; */
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background: rgb(253, 253, 253);
+    color: rgb(16, 108, 201);
+}
+.divPic img{
+    height: 58vh;
+}
+
+/* contact me page */
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 34px;
+    margin-top: 80px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    text-align: center;
+}
+.contactform form div{
+    padding: 8px; 
+    display:flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 20vw;
+    border-radius: 7px;
+    margin: 6px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    font-weight: bold;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.btn-sm{
+    padding: 2px 5px;
+    font-size: 17px;
+    border-radius: 22px;
+    color: rgb(253, 253, 253);
+    background: rgb(16, 108, 201);
+    cursor: pointer;
+}
+.btn-sm:hover{
+    background: rgb(253, 253, 253);
+    color: rgb(16, 108, 201);
+}
+
+/* Abot website page */
+.blogItem{
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.blogItem h2{
+    margin: 23px;
+}
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+/* About me page */
+.introContainer{
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.introContainer h3{
+    margin: 23px;
+}
+.introContainer p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin: 12px;
+}
+/* for cross and square */
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.ham{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    /* margin-left: 210px; */
+}
+@media (max-width: 1415px){
+    *{
+        /* background: pink; */
+    }
+    .divPic{
+        display: none;
+    }
+    .introContainer, .about, .contactform, .abt{
+        margin: 8px;
+    }
+}
+/* resume pic */
+.resumePic{
+    padding-top: 30px;
+    padding-left: 25%;
+}
+/* certificates page */
+.courseContainer{
+    font-family: 'Fira Sans', sans-serif;
+}
+.courseContainer a{
+    /* text-decoration: none; */
+    color:rgb(187, 12, 12);
+    padding: 50px;
+}
+.courseContainer p{
+    padding: 25px;
+}
+.main h1{
+    padding: 23px;
+    padding-bottom: 3px;
+}
+.main h4{
+    padding: 10px;
+}
